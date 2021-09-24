@@ -1,7 +1,7 @@
 class DNA {
 
   PVector[] genes;
-  float forceMag = 0.5;
+  float forceMag = 1;
   DNA(int length) {
     genes = new PVector[length];
     for (int i = 0; i < genes.length; i++) {
